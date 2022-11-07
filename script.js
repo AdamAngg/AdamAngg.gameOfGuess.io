@@ -49,4 +49,5 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = `?`;
   makeRandom();
   document.querySelector('.guess').value = null;
+  document.querySelector('.message').textContent = 'Start guessing...';
 });
