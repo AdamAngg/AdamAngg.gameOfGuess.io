@@ -19,7 +19,8 @@ document.querySelector('.check').addEventListener('click', function () {
   if (!guess) {
     document.querySelector('.message').textContent = 'No number 🐱‍🐉';
   } else if (guess == number && score > 1) {
-    document.querySelector('.message').textContent = 'Yay u did Great ❤';
+    document.querySelector('.message').textContent =
+      'Jęsiek pizdeczka przegrał w piłke wygrał w liczby';
     document.querySelector('.number').textContent = number;
     document.querySelector('body').style.backgroundColor = '#60b347';
     const highScores = Number(document.querySelector('.highscore').textContent);
